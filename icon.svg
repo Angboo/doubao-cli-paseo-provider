@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="doubao_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="doubao_accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#doubao_grad)" />
+  <!-- Doubao Head / Cloud contour -->
+  <path d="M 38 44 C 28 44 22 52 22 62 C 22 74 32 82 44 84 C 48 94 58 100 70 100 C 84 100 95 91 98 78 C 104 76 108 70 108 63 C 108 53 100 46 90 46 C 88 34 77 26 64 26 C 50 26 40 34 38 44 Z" fill="#FFFFFF" />
+  <!-- Doubao Eyes & Smile -->
+  <circle cx="50" cy="58" r="6" fill="#1E40AF" />
+  <circle cx="78" cy="58" r="6" fill="#1E40AF" />
+  <path d="M 52 70 Q 64 80 76 70" stroke="#1E40AF" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <!-- Sparkle Accent -->
+  <path d="M 96 26 L 98 32 L 104 34 L 98 36 L 96 42 L 94 36 L 88 34 L 94 32 Z" fill="url(#doubao_accent)" />
+</svg>
